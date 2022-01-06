@@ -13,8 +13,8 @@ humandate: "Feb 21, 22, 24, 25, 2022"    # human-readable dates for the workshop
 humantime: "9:00 am - 1:00 pm CET"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
 startdate: 2022-02-21      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2022-02-25        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructors: ["Claudiu Forgaci", "Eduard Klapwijk", "Eirini Zormpa", "Esther Plomp", "Kristina Hettne", "Peter Verhaar"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helpers: ["Claudiu Forgaci", "Eduard Klapwijk", "Eirini Zormpa", "Esther Plomp", "Kristina Hettne", "Peter Verhaar"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+instructor: ["Ben Companjen", "Bjørn Bartholdy", "Claudiu Forgaci", "Eduard Klapwijk", "Eirini Zormpa", "Esther Plomp", "Kristina Hettne", "Peter Verhaar"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["Aleksandra Wilczynska", "Anna Volkova", "Ben Companjen", "Bjørn Bartholdy", "Claudiu Forgaci", "Eduard Klapwijk", "Eirini Zormpa", "Esther Plomp", "Kristina Hettne", "Peter Verhaar"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["e.klapwijk@essb.eur.nl"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
@@ -29,12 +29,6 @@ If the value is not 'true', 'false', 'null', or a number, please use
 double quotation marks around the value, unless specified otherwise.
 And run 'make workshop-check' *before* committing to make sure that changes are good.
 {% endcomment %}
-
-
-{% comment %}
-
-{% endcomment %}
-
 
 {% comment %}
 Check DC curriculum
@@ -260,12 +254,13 @@ Edit the text to match who can attend the workshop. For instance:
 - This workshop is open to the public.
 - If you are interested in attending this workshop, contact me@example.com
   for more information
-
+{% endcomment %}
+  
 <p id="who-can-attend">
     <strong>Who can attend?:</strong>
-    This workshop is open to ....
+    This workshop is open to graduate students and other researchers from Leiden University, TU Delft, and Erasmus University Rotterdam.
 </p>
-{% endcomment %}
+
 
 <hr/>
 
