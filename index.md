@@ -16,7 +16,7 @@ enddate: 2022-02-25        # machine-readable end date for the workshop in YYYY-
 instructor: ["Ben Companjen", "Bjørn Bartholdy", "Claudiu Forgaci", "Eduard Klapwijk", "Eirini Zormpa", "Esther Plomp", "Kristina Hettne", "Peter Verhaar"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Aleksandra Wilczynska", "Anna Volkova", "Ben Companjen", "Bjørn Bartholdy", "Claudiu Forgaci", "Clémentine Cottineau", "Eduard Klapwijk", "Eirini Zormpa", "Esther Plomp", "Kristina Hettne", "Peter Verhaar"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["e.klapwijk@essb.eur.nl"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-eventbrite: "TBA"          # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
@@ -258,7 +258,7 @@ Edit the text to match who can attend the workshop. For instance:
   
 <p id="who-can-attend">
     <strong>Who can attend?:</strong>
-    This workshop is open to graduate students and other researchers from Leiden University, TU Delft, and Erasmus University Rotterdam.
+    This workshop is open to graduate students and other researchers from Leiden University, TU Delft, and Erasmus University Rotterdam. <strong>Registration will be open end of January; an EventBrite link will be provided on this page. </strong>
 </p>
 
 
